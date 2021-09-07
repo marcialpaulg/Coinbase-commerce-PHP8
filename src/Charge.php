@@ -3,8 +3,8 @@
 namespace MarcialPaulG\Coinbase;
 
 use MarcialPaulG\Coinbase\Exceptions\InputException;
-use MarcialPaulG\Coinbase\Interface\ApiRequest;
-use MarcialPaulG\Coinbase\Interface\Charge as InterfaceCharge;
+use MarcialPaulG\Coinbase\Interfaces\ApiRequest;
+use MarcialPaulG\Coinbase\Interfaces\Charge as InterfaceCharge;
 
 class Charge implements InterfaceCharge, ApiRequest
 {

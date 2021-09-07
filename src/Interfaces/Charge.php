@@ -1,6 +1,6 @@
 <?php
 
-namespace MarcialPaulG\Coinbase\Interface;
+namespace MarcialPaulG\Coinbase\Interfaces;
 
 interface Charge
 {

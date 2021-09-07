@@ -2,7 +2,7 @@
 
 namespace MarcialPaulG\Coinbase;
 
-use MarcialPaulG\Coinbase\Interface\ApiRequest as ApiRequestInterface;
+use MarcialPaulG\Coinbase\Interfaces\ApiRequest as ApiRequestInterface;
 
 class ApiRequest implements ApiRequestInterface
 {

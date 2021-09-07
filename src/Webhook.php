@@ -4,7 +4,7 @@ namespace MarcialPaulG\Coinbase;
 
 use MarcialPaulG\Coinbase\Exceptions\WebhookPayloadException;
 use MarcialPaulG\Coinbase\Exceptions\WebhookSignatureException;
-use MarcialPaulG\Coinbase\Interface\Webhook as InterfaceWebhook;
+use MarcialPaulG\Coinbase\Interfaces\Webhook as InterfaceWebhook;
 
 class Webhook implements InterfaceWebhook
 {

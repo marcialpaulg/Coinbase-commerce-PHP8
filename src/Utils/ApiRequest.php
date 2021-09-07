@@ -4,7 +4,7 @@ namespace MarcialPaulG\Coinbase\Utils;
 
 use MarcialPaulG\Coinbase\Exceptions\InvalidRequestException;
 use MarcialPaulG\Coinbase\Exceptions\RateLimitExceededException;
-use MarcialPaulG\Coinbase\Interface\ApiRequest as InterfaceApiRequest;
+use MarcialPaulG\Coinbase\Interfaces\ApiRequest as InterfaceApiRequest;
 
 trait ApiRequest
 {

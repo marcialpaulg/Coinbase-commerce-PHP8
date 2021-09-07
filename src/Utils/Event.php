@@ -3,7 +3,7 @@
 namespace MarcialPaulG\Coinbase\Utils;
 
 use MarcialPaulG\Coinbase\ApiRequest;
-use MarcialPaulG\Coinbase\Interface\Event as InterfaceEvent;
+use MarcialPaulG\Coinbase\Interfaces\Event as InterfaceEvent;
 
 trait Event
 {

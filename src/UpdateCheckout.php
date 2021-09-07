@@ -2,8 +2,8 @@
 
 namespace MarcialPaulG\Coinbase;
 
-use MarcialPaulG\Coinbase\Interface\ApiRequest;
-use MarcialPaulG\Coinbase\Interface\Checkout;
+use MarcialPaulG\Coinbase\Interfaces\ApiRequest;
+use MarcialPaulG\Coinbase\Interfaces\Checkout;
 
 class UpdateCheckout implements Checkout, ApiRequest
 {

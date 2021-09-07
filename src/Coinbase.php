@@ -3,7 +3,7 @@
 namespace MarcialPaulG\Coinbase;
 
 use GuzzleHttp\Client;
-use MarcialPaulG\Coinbase\Interface\Coinbase as InterfaceCoinbase;
+use MarcialPaulG\Coinbase\Interfaces\Coinbase as InterfaceCoinbase;
 use MarcialPaulG\Coinbase\Utils\ApiRequest;
 use MarcialPaulG\Coinbase\Utils\Charge;
 use MarcialPaulG\Coinbase\Utils\Checkout;

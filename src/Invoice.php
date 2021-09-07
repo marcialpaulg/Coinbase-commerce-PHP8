@@ -2,8 +2,8 @@
 
 namespace MarcialPaulG\Coinbase;
 
-use MarcialPaulG\Coinbase\Interface\ApiRequest;
-use MarcialPaulG\Coinbase\Interface\Invoice as InterfaceInvoice;
+use MarcialPaulG\Coinbase\Interfaces\ApiRequest;
+use MarcialPaulG\Coinbase\Interfaces\Invoice as InterfaceInvoice;
 
 class Invoice implements InterfaceInvoice, ApiRequest
 {
