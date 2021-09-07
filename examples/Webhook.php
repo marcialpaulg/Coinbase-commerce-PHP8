@@ -10,7 +10,7 @@ $secret_key = 'YOU_API_SECRET_KEY';
 
 $payload = trim(file_get_contents('php://input'));
 
-$http_header_signature = $_SERVER[Webhook::SIGNATURE_HEADER_NAME];
+$http_header_signature = $_SERVER[Webhook::httpHeaderName()];
 
 $webhook = new Webhook($secret_key, $payload, $http_header_signature);
 

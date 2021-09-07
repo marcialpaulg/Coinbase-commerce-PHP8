@@ -30,4 +30,9 @@ class Webhook implements InterfaceWebhook
             throw new WebhookSignatureException('Signature mismatched!');
         }
     }
+
+    public static function httpHeaderName()
+    {
+        return 'HTTP_' . str_replace('-', '_', strtoupper(static::SIGNATURE_HEADER_NAME));
+    }
 }
