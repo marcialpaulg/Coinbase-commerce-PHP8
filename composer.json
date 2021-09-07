@@ -1,0 +1,24 @@
+{
+    "name": "marcialpaulg/coinbase-commerce-php8",
+    "description": "Coinbase commerce PHP8 library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcial Paul Gargoles",
+            "email": "im.codename@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "illuminate/collections": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MarcialPaulG\\Coinbase\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
